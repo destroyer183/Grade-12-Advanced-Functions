@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  13 SEP 2024 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  13 SEP 2024 19:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.3 homework/0.3 homework.tex"
-(c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.3 homework/0.3 homework.tex
+**"c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.4 absolute value homework/0.4 homework.tex"
+(c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.4 absolute value homework/0.4 homework.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
 (c:/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -388,8 +388,8 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box66
-) (./0.3 homework.aux)
-\openout1 = `"0.3 homework.aux"'.
+) (./0.4 homework.aux)
+\openout1 = `"0.4 homework.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -469,122 +469,72 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 25--51
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--87
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Overfull \hbox (128.0478pt too wide) in paragraph at lines 91--123
-[][] 
- []
-
-
-Overfull \hbox (128.0478pt too wide) in paragraph at lines 91--123
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--123
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Overfull \hbox (348.88728pt too wide) in paragraph at lines 127--159
-[] \OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = 2(\OML/cmm/m/it/14.4 x[] \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 1) [][] 
- []
-
-
-Overfull \hbox (486.28061pt too wide) in paragraph at lines 127--159
-[] \OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 ^^F[] [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--159
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--170
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--170
+Underfull \hbox (badness 10000) in paragraph at lines 57--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--240
+Underfull \hbox (badness 10000) in paragraph at lines 74--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--240
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--240
+Underfull \hbox (badness 10000) in paragraph at lines 87--100
 
  []
 
 
-Overfull \hbox (8.97766pt too wide) in paragraph at lines 276--278
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--290
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--326
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
@@ -592,25 +542,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--326
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./0.3 homework.aux)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./0.4 homework.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24186 strings out of 473578
- 627261 string characters out of 5732243
- 2017960 words of memory out of 5000000
- 46720 multiletter control sequences out of 15000+600000
+ 24200 strings out of 473578
+ 627480 string characters out of 5732243
+ 2004960 words of memory out of 5000000
+ 46734 multiletter control sequences out of 15000+600000
  564983 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,816b,2288s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "0.3 homework.pdf" (1 page, 145765 bytes).
+ 102i,17n,107p,831b,2282s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "0.4 homework.pdf" (1 page, 120382 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,267 @@
+\documentclass[14pt, a4paper]{extarticle}
+\title{Functions \& Interval Notation}
+\usepackage[a4paper, papersize={8.5in, 120in}, total={7.5in, 120in}]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{changepage}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\author{Jacob Zante}
+\date{September 9th, 2024}
+\doublespacing
+\pgfplotsset{width=7in, compat=newest}
+% \usepgfplotslibrary{external}
+
+\begin{document}
+\maketitle
+\setlength{\parindent}{0pt}
+
+
+
+\textbf{1. Arrange these values in order, from least to greatest: } \\
+\textbf{$|-5|, |20|, |-15|, |12|, |-25|$} \\
+\begin{adjustwidth}{1cm}{0pt}
+    $= |-5|, |12|, |-15|, |20|, |-25|$ \\
+    = 5, 12, 15, 20, 25 \\
+\end{adjustwidth}
+
+\textbf{2. Evaluate.} \\
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{math}
+        \textbf{a) } |-22| \\
+        = 22 \\
+        \\
+        \textbf{b) } -|-35| \\
+        = -35 \\
+        \\
+        \textbf{c) } |-5 - 13| \\
+        = 18 \\
+        \\
+        \textbf{d) } |4 - 7| + |-10 + 2| \\
+        |-3| + |-8| \\
+        = 11 \\
+        \\
+        \textbf{e) } \frac{|-8|}{-4} \\
+        = -2 \\
+        \\
+        \textbf{f) } \frac{|-22|}{|-11|} + \frac{-16}{|-4|} \\
+        = 2 + -4 \\
+        = -2 \\
+    \end{math}
+\end{adjustwidth}
+
+\textbf{3. Express using absolute value notation.} \\
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{math}
+        \textbf{a) } x < -3 \hspace{2mm} or \hspace{2mm} x > 3 \\
+        |x| > 3 \\
+        \\
+        \textbf{b) } -8 \leq x \leq 8 \\
+        |x| \leq 8 \\
+        \\
+        \textbf{c) } x \leq -1 \hspace{2mm} or \hspace{2mm} x \geq 1 \\
+        |x| \geq 1 \\
+        \\
+        \textbf{d) } x \neq \pm 5 \\
+        |x| \neq 5 \\
+    \end{math}
+\end{adjustwidth}
+
+\textbf{4. Graph on a number line.} \\
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{math}
+        \textbf{a) } |x| < 8 \\
+        \\
+        \textbf{b) } |x| \geq 16 \\
+        \\
+        \textbf{c) } |x| \leq -4 \\
+        \\
+        \textbf{d) } |x| > -7 \\
+    \end{math}
+\end{adjustwidth}
+
+\textbf{5. Rewrite using absolute value notation.} \\
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{math}
+        \textbf{a)} \\
+        |x| \leq 3 \\
+        \\
+        \textbf{b)} \\
+        |x| > 2 \\
+        \\
+        \textbf{c)} \\
+        |x| \geq 2 \\
+        \\
+        \textbf{d)} \\
+        |x| < 4 \\
+    \end{math}
+\end{adjustwidth}
+
+\textbf{6. Graph $f(x) = |x - 8|$ and $g(x) = |-x + 8|$.} \\
+\begin{adjustwidth}{1cm}{0pt}
+
+    \begin{adjustwidth}{-1cm}{0pt}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines=middle,
+                axis line style={thick,<->},
+                xmin=-20,xmax=20,ymin=-20,ymax=20,
+                xtick={-20,-15,...,+20},
+                ytick={-20,-15,...,+20},
+                tick label style={font=\normalsize},
+                grid=major,
+                major grid style={dashed,very thin,black},
+                every axis plot post/.append style={thick},
+                label style={font=\normalsize},
+                x label style={at={(axis description cs:1.025,0.5)},anchor=west},
+                y label style={at={(axis description cs:0.5,1.025)},,anchor=south},
+                xlabel=$x$,
+                ylabel=$y$,
+                smooth,
+                legend style={
+                        font=\normalsize,
+                        at={(1, 1.05)},
+                        anchor=south east
+                        }
+                ]
+                \addplot[domain=-20:20,samples=200,blue]{abs(x-8)};
+                \addplot[domain=-20:20,samples=200,red]{abs(-x-8)};
+                \legend{$f(x) = |x - 8|$, $g(x) = |-x + 8|$}
+            \end{axis}
+        \end{tikzpicture}
+    \end{adjustwidth}
+
+    \textbf{a) What do your notice?} \\
+    $g(x)$ is just $f(x)$ mirrored in the y-axis. \\
+    \\
+    \textbf{b) How could you have predicted this?} \\
+    by factoring out $-1$ from $g(x)$ to make it $g(x) = |-(x - 8)|$, the $-1$ behaves like the $k$ value on any other function, simply mirroring the graph in the y-axis. \\
+\end{adjustwidth}
+
+\textbf{7. Graph the following functions.}
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{math}
+        \textbf{a)} \hspace{3.5mm} f(x) = |x - 2| \\
+        \textbf{b)} \hspace{3.5mm} f(x) = |x| + 2 \\
+        \textbf{c)} \hspace{3.5mm} f(x) = |x + 2| \\
+        \textbf{d)} \hspace{3.5mm} f(x) = |x| - 2
+    \end{math}
+    \begin{adjustwidth}{-1cm}{0pt}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines=middle,
+                axis line style={thick,<->},
+                xmin=-5,xmax=5,ymin=-5,ymax=5,
+                xtick={-5,-4,...,+5},
+                ytick={-5,-4,...,+5},
+                tick label style={font=\normalsize},
+                grid=major,
+                major grid style={dashed,very thin,black},
+                every axis plot post/.append style={thick},
+                label style={font=\normalsize},
+                x label style={at={(axis description cs:1.025,0.5)},anchor=west},
+                y label style={at={(axis description cs:0.5,1.025)},,anchor=south},
+                xlabel=$x$,
+                ylabel=$y$,
+                smooth,
+                legend style={
+                        font=\normalsize,
+                        at={(1, 1.05)},
+                        anchor=south east
+                        }
+                ]
+                \addplot[domain=-5:5,samples=200,blue]{abs(x-2)};
+                \addplot[domain=-5:5,samples=200,red]{abs(x) + 2};
+                \addplot[domain=-5:5,samples=200,green]{abs(x + 2)};
+                \addplot[domain=-5:5,samples=200,yellow]{abs(x) - 2};
+                \legend{$f(x) = |x - 2|$, $f(x) = |x| + 2$, $f(x) = |x + 2|$, $f(x) = |x| - 2$}
+            \end{axis}
+        \end{tikzpicture}
+    \end{adjustwidth}
+\end{adjustwidth}
+
+\textbf{8. Compare the graphs you drew in question 7. How could you use transformations to describe the graph of $f(x) = |x + 3| - 4$?}
+\begin{adjustwidth}{1cm}{0pt}
+    translate left 3 units \\
+    translate down 4 units \\
+\end{adjustwidth}
+
+\textbf{9. Predict what the graph of $f(x) = |2x + 1|$ will look like. Verify your prediction using graphing technology.}
+\begin{adjustwidth}{1cm}{0pt}
+    $f(x) = |2(x + \frac{1}{2})|$ \\
+    h. compression by a factor of $\frac{1}{2}$ \\
+    translate left $\frac{1}{2}$ units
+
+    \begin{adjustwidth}{-1cm}{0pt}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines=middle,
+                axis line style={thick,<->},
+                xmin=-5,xmax=5,ymin=-5,ymax=5,
+                xtick={-5,-4,...,+5},
+                ytick={-5,-4,...,+5},
+                tick label style={font=\normalsize},
+                grid=major,
+                major grid style={dashed,very thin,black},
+                every axis plot post/.append style={thick},
+                label style={font=\normalsize},
+                x label style={at={(axis description cs:1.025,0.5)},anchor=west},
+                y label style={at={(axis description cs:0.5,1.025)},,anchor=south},
+                xlabel=$x$,
+                ylabel=$y$,
+                smooth,
+                legend style={
+                        font=\normalsize,
+                        at={(1, 1.05)},
+                        anchor=south east
+                        }
+                ]
+                \addplot[domain=-5:5,samples=200,blue]{abs(2*x+1)};
+                \legend{$f(x) = |2x + 1|$}
+            \end{axis}
+        \end{tikzpicture}
+    \end{adjustwidth}
+\end{adjustwidth}
+
+\textbf{10. Predict what the graph of $f(x) = 3 - |2x - 5|$ will look like. Verify your prediction using graphing technology.}
+\begin{adjustwidth}{1cm}{0pt}
+    $f(x) = 3 - |2(x - \frac{5}{2})|$ \\
+    $f(x) = -|2(x - \frac{5}{2})| + 3$ \\
+    reflected in x-axis \\
+    h. compression by a factor of $\frac{1}{2}$ \\
+    translate right $\frac{5}{2}$ units \\
+    translate up 3 units
+
+    \begin{adjustwidth}{-1cm}{0pt}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines=middle,
+                axis line style={thick,<->},
+                xmin=-10,xmax=10,ymin=-10,ymax=10,
+                xtick={-10,-8,...,+10},
+                ytick={-10,-8,...,+10},
+                tick label style={font=\normalsize},
+                grid=major,
+                major grid style={dashed,very thin,black},
+                every axis plot post/.append style={thick},
+                label style={font=\normalsize},
+                x label style={at={(axis description cs:1.025,0.5)},anchor=west},
+                y label style={at={(axis description cs:0.5,1.025)},,anchor=south},
+                xlabel=$x$,
+                ylabel=$y$,
+                smooth,
+                legend style={
+                        font=\normalsize,
+                        at={(1, 1.05)},
+                        anchor=south east
+                        }
+                ]
+                \addplot[domain=-10:10,samples=200,blue]{3-abs(2*x-5)};
+                \legend{$f(x) = 3 - |2x - 5|$}
+            \end{axis}
+        \end{tikzpicture}
+    \end{adjustwidth}
+\end{adjustwidth}
+\end{document}

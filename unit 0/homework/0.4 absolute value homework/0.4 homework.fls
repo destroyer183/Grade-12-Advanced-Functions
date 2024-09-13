@@ -1,9 +1,9 @@
-PWD c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.3 homework
+PWD c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.4 absolute value homework
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.3 homework/0.3 homework.tex
-OUTPUT 0.3 homework.log
+INPUT c:/Users/aob/Documents/Coding Stuff/school stuff/Grade 12 Advanced Functions/unit 0/homework/0.4 absolute value homework/0.4 homework.tex
+OUTPUT 0.4 homework.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/extsizes/size14.clo
@@ -215,10 +215,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.c
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./0.3 homework.aux
-INPUT ./0.3 homework.aux
-INPUT 0.3 homework.aux
-OUTPUT 0.3 homework.aux
+INPUT ./0.4 homework.aux
+INPUT ./0.4 homework.aux
+INPUT 0.4 homework.aux
+OUTPUT 0.4 homework.aux
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -259,15 +259,12 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-OUTPUT 0.3 homework.pdf
+OUTPUT 0.4 homework.pdf
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT 0.3 homework.aux
+INPUT 0.4 homework.aux
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
